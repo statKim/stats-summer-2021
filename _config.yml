@@ -1,5 +1,5 @@
 title: 통계특강 with Python
 description: 동아대학교 패션디자인학과
-show_downloads: true
-google_analytics: "UA-171508264-1"
+show_downloads: false
+google_analytics: 
 theme: jekyll-theme-cayman
