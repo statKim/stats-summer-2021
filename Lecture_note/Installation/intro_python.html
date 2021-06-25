@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>통계특강 with Python</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="김 현 성" />
+    <meta name="date" content="2021-07-01" />
+    <script src="libs/header-attrs-2.9/header-attrs.js"></script>
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/panelset-0.2.6/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset-0.2.6/panelset.js"></script>
+    <link rel="stylesheet" href="css/statisticsplaybook.css" type="text/css" />
+    <link rel="stylesheet" href="css/statisticsplaybook-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: title-slide, left, bottom
+
+# 통계특강 with Python
+----
+## **Python 소개 및 설치**
+### 김 현 성
+### 중앙대학교 응용통계학과
+### July 1, 2021
+
+---
+class: inverse, middle, center
+
+# 파이썬 (Python) 이란?
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="200" style="display: block; margin: auto;" /&gt;
+
+---
+
+# 파이썬 (Python)
+
+- **1991년에 귀도 반 로섬(Guido van Rossum)이 개발한 대화형 프로그래밍 언어**
+
+- **쉽고 간결하다.**
+
+- **빠른 개발 속도**
+
+- **오픈소스이며 활발한 생태계를 구축**
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="200" style="display: block; margin: auto;" /&gt;
+
+---
+# Python으로 무얼 할 수 있을까?
+
+- **개발 (웹, 게임, GUI 등)**
+
+- **웹 크롤링**
+
+- **데이터 분석 / 통계 분석**
+
+- **머신러닝 / 딥러닝**
+
+- **구글 (Google), 인스타그램 (Instagram), 넷플릭스 (Netflix) 등 다양한 기업에서 파이썬을 활용하고 있음**
+
+---
+class: inverse, middle, center
+
+# 아나콘다 (Anaconda) 란?
+&lt;img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Anaconda_Logo.png/440px-Anaconda_Logo.png" width="400" style="display: block; margin: auto;" /&gt;
+
+---
+
+# 아나콘다 (Anaconda)
+
+- **Python 기본 패키지에 각종 수학 / 과학 라이브러리들을 같이 패키징해서 배포하는 버전**
+
+- **대표적으로 pandas, numpy, scipy, sklearn, matplotlib 등이 포함**
+
+- **conda라는 강력한 패키지 관리자가 존재**
+
+- **손쉽게 가상환경을 만들어 개발 환경 및 패키지를 분리하여 관리가 가능**
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Anaconda_Logo.png/440px-Anaconda_Logo.png" width="400" style="display: block; margin: auto;" /&gt;
+
+---
+class: inverse, middle, center
+
+# Anaconda 설치 방법
+
+---
+layout: true
+
+# Anaconda 설치
+
+---
+
+- https://www.anaconda.com/products/individual
+
+&lt;img src="figure/install_0.png" width="700" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_2.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_3.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_4.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_5.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_6.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_7.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_8.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="figure/install_9.png" width="600" style="display: block; margin: auto;" /&gt;
+
+---
+layout: true
+
+# Anaconda 설치 확인
+
+---
+
+- 시작메뉴에서 **Anaconda Prompt** 실행
+
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F99D5EA4F5BE150ED1458FA" alt="&amp;lt;그림출처: https://wonderbout.tistory.com/22&amp;gt;" width="500" /&gt;
+&lt;p class="caption"&gt;&lt;그림출처: https://wonderbout.tistory.com/22&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+---
+
+- **Anaconda Prompt**에서 다음을 한 줄씩 실행
+
+- 한 줄씩 실행할 때 마다 오류 발생하지 않는지 확인!
+
+```bash
+python --version
+python
+print("Hello world")
+```
+
+&lt;img src="figure/install_10.png" width="1000" style="display: block; margin: auto;" /&gt;
+
+---
+layout: false
+
+# Reference
+
+- [점프 투 파이썬](https://wikidocs.net/book/1)
+
+- https://wonderbout.tistory.com/22
+
+- https://popooly.tistory.com/26
+
+- https://bradbury.tistory.com/60
+
+---
+class: center, middle
+
+# 감사합니다!
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "googlecode",
+"highlightLines": true,
+"highlightLanguage": "r",
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+<!--Hat-tip: https://www.garrickadenbuie.com/blog/xaringan-tip-logo-all-slides/-->
+<style>
+.logo {
+  background-image: url(img/logo-blue.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 110px;
+  height: 128px;
+  z-index: 0;
+}
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    // add additional classes to exclude here, e.g.
+    ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

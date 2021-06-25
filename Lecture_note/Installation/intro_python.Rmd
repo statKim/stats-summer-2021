@@ -1,0 +1,217 @@
+---
+title: "통계특강 with Python"
+subtitle: "Python 소개 및 설치"
+author: "김 현 성"
+institute: "중앙대학교 응용통계학과"
+date: "July 1, 2021"
+output:
+  xaringan::moon_reader:
+    css: 
+      - default
+      - css/statisticsplaybook.css
+      - css/statisticsplaybook-fonts.css
+    lib_dir: libs
+    seal: false
+    nature:
+      highlightStyle: googlecode
+      highlightLines: true
+      highlightLanguage: ["r"]
+      countIncrementalSlides: false
+      ratio: "16:9"
+    includes:
+      after_body: [css/insert-logo.html]
+---
+
+```{r setup, include = FALSE}
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+xaringanExtra::use_panelset()
+# set default options
+opts_chunk$set(dpi = 300,
+               echo = FALSE)
+```
+
+class: title-slide, left, bottom
+
+# `r rmarkdown::metadata$title`
+----
+## **`r rmarkdown::metadata$subtitle`**
+### `r rmarkdown::metadata$author`
+### `r rmarkdown::metadata$institute`
+### `r rmarkdown::metadata$date`
+
+---
+class: inverse, middle, center
+
+# 파이썬 (Python) 이란?
+
+```{r, fig.align='center', out.width=200}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg")
+```
+
+---
+
+# 파이썬 (Python)
+
+- **1991년에 귀도 반 로섬(Guido van Rossum)이 개발한 대화형 프로그래밍 언어**
+
+- **쉽고 간결하다.**
+
+- **빠른 개발 속도**
+
+- **오픈소스이며 활발한 생태계를 구축**
+
+```{r, fig.align='center', out.width=200}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg")
+```
+
+---
+# Python으로 무얼 할 수 있을까?
+
+- **개발 (웹, 게임, GUI 등)**
+
+- **웹 크롤링**
+
+- **데이터 분석 / 통계 분석**
+
+- **머신러닝 / 딥러닝**
+
+- **구글 (Google), 인스타그램 (Instagram), 넷플릭스 (Netflix) 등 다양한 기업에서 파이썬을 활용하고 있음**
+
+---
+class: inverse, middle, center
+
+# 아나콘다 (Anaconda) 란?
+```{r, fig.align='center', out.width=400}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Anaconda_Logo.png/440px-Anaconda_Logo.png")
+```
+
+---
+
+# 아나콘다 (Anaconda)
+
+- **Python 기본 패키지에 각종 수학 / 과학 라이브러리들을 같이 패키징해서 배포하는 버전**
+
+- **대표적으로 pandas, numpy, scipy, sklearn, matplotlib 등이 포함**
+
+- **conda라는 강력한 패키지 관리자가 존재**
+
+- **손쉽게 가상환경을 만들어 개발 환경 및 패키지를 분리하여 관리가 가능**
+
+```{r, fig.align='center', out.width=400}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Anaconda_Logo.png/440px-Anaconda_Logo.png")
+```
+
+---
+class: inverse, middle, center
+
+# Anaconda 설치 방법
+
+---
+layout: true
+
+# Anaconda 설치
+
+---
+
+- https://www.anaconda.com/products/individual
+
+```{r, fig.align='center', out.width=700}
+knitr::include_graphics("figure/install_0.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_2.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_3.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_4.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_5.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_6.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_7.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_8.png")
+```
+
+---
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/install_9.png")
+```
+
+---
+layout: true
+
+# Anaconda 설치 확인
+
+---
+
+- 시작메뉴에서 **Anaconda Prompt** 실행
+
+```{r, fig.align='center', out.width=500, fig.cap="<그림출처: https://wonderbout.tistory.com/22>"}
+knitr::include_graphics("https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile28.uf.tistory.com%2Fimage%2F99D5EA4F5BE150ED1458FA")
+```
+
+---
+
+- **Anaconda Prompt**에서 다음을 한 줄씩 실행
+
+- 한 줄씩 실행할 때 마다 오류 발생하지 않는지 확인!
+
+```bash
+python --version
+python
+print("Hello world")
+```
+
+```{r, fig.align='center', out.width=1000}
+knitr::include_graphics("figure/install_10.png")
+```
+
+---
+layout: false
+
+# Reference
+
+- [점프 투 파이썬](https://wikidocs.net/book/1)
+
+- https://wonderbout.tistory.com/22
+
+- https://popooly.tistory.com/26
+
+- https://bradbury.tistory.com/60
+
+---
+class: center, middle
+
+# 감사합니다!
