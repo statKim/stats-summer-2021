@@ -104,11 +104,6 @@ knitr::include_graphics("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/An
 ```
 
 ---
-class: inverse, middle, center
-
-# Anaconda 설치 방법
-
----
 layout: true
 
 # Anaconda 설치
@@ -200,6 +195,80 @@ knitr::include_graphics("figure/install_10.png")
 
 ---
 layout: false
+class: inverse, middle, center
+
+# Jupyter Lab
+```{r, fig.align='center', out.width=200}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg")
+```
+
+
+<!-- --- -->
+
+<!-- # Anaconda Navigator -->
+
+<!-- - 시작메뉴에서 **Anaconda Navigator** 실행 -->
+
+<!-- - Anaconda의 패키지와 여러 개발환경을 실행 및 다룰 수 있는 편리한 툴 -->
+
+<!-- ```{r, fig.align='center', out.width=600} -->
+<!-- knitr::include_graphics("figure/navigator_1.png") -->
+<!-- ``` -->
+
+---
+
+# Jupyter Lab
+
+- **앞으로 실습에서 사용할 파이썬 개발 환경**
+
+- **파이썬을 활용한 데이터 분석에서 널리 사용되고 있음**
+
+- **코드블럭마다 실행결과를 확인할 수 있어 리포트처럼 보기에 좋음**
+
+```{r, fig.align='center', out.width=200}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg")
+```
+
+---
+
+# Jupyter Lab 실행 방법
+
+- 시작메뉴에서 **Anaconda Navigator** 실행
+
+- **Jupyter Lab** 박스 밑에 **Launch** 클릭
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/jupyter_1.png")
+```
+
+---
+
+# Jupyter Lab 실행 화면
+
+- 웹창이 열리게 되고 다음과 같은 화면이 나타남
+
+- **Notebook**의 **Python3** 클릭
+
+```{r, fig.align='center', out.width=600}
+knitr::include_graphics("figure/jupyter_2.png")
+```
+
+---
+
+# Jupyter notebook
+
+- 다음과 같은 jupyter notebook 파일이 열리게 됨
+
+- 아래 그림과 같이 한 줄씩 입력하여 실행되는지 확인
+  - 실행은 shift+enter 또는 ctrl+enter
+
+- 코드블럭 추가는 위에 **+** 기호를 누르면 됨
+
+```{r, fig.align='center', out.width=1000}
+knitr::include_graphics("figure/jupyter_3.png")
+```
+
+---
 
 # Reference
 
