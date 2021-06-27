@@ -284,3 +284,11 @@ knitr::include_graphics("figure/jupyter_3.png")
 class: center, middle
 
 # 감사합니다!
+
+#### 수업관련 질문사항은 아래 메일로 보내주세요.
+
+hyunsung1021@gmail.com
+
+#### 실습자료는 아래 페이지에서 받으실 수 있습니다.
+
+https://statkim.github.io/stats-summer-2021/
