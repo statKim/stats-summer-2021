@@ -8,14 +8,14 @@
 
 ## Day 1 (7/1) 실습
 - Python 소개 및 Anaconda 설치
-- 기초 Python 프로그래밍 1 (자료형, 제어문)
+- 기초 Python 프로그래밍 1 (자료형, 조건문과 반복문)
 - [**실습자료**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day1.zip?raw=T)
 
 
 ## Day 2 (7/2) 실습
 - 기초 Python 프로그래밍 2 (함수와 모듈)
 - 데이터 다루기 1 (NumPy)
-- [**실습자료**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day2.zip?raw=T)
+
 
 
 ## Day 3 (7/7) 실습
