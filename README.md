@@ -7,15 +7,15 @@
 <br>
 
 ## Day 1 (7/1) 실습
-- Python 소개 및 Anaconda 설치
-- 기초 Python 프로그래밍 1 (자료형, 조건문과 반복문)
-- [**실습자료**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day1.zip?raw=T)
+- [Python 소개 및 Anaconda 설치](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Installation/intro_python.pdf)
+- 기초 Python 프로그래밍 1 ([자료형](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day1/1.자료형.ipynb), [조건문과 반복문](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day1/2.조건문과%20반복문.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day1.zip?raw=T)
 
 
 ## Day 2 (7/2) 실습
-- 기초 Python 프로그래밍 2 (함수와 모듈)
-- 데이터 다루기 1 (NumPy)
-
+- 기초 Python 프로그래밍 2 ([함수와 모듈](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day2/3.함수와%20모듈.ipynb/))
+- 데이터 다루기 1 ([NumPy](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day2/NumPy.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day2.zip?raw=T)
 
 
 ## Day 3 (7/7) 실습
