@@ -19,13 +19,17 @@
 
 
 ## Day 3 (7/7) 실습
-- 데이터 다루기 2 (Pandas)
-- 파일 입출력 (파일 읽고 쓰기)
+- 데이터 다루기 2
+    - [Pandas1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day3/Pandas_1.ipynb/) : Pandas 자료구조, 인덱싱과 슬라이싱
+    - [Pandas2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day3/Pandas_2.ipynb/)) : 데이터 연산
 
+# 우선 동영상 1 먼저 찍어보고 시간 파악해보기
+# concat이랑 group_by 정도 우선 수정해보기
+# pandas1-1에서 뒤쪽 자르기
 
 ## Day 4 (7/8) 실습
 - 데이터 시각화 (matplotlib, seaborn)
 
 
 ## Day 5 (7/9) 실습
-- 웹 크롤링 1
+- 웹 크롤링 1 (Beautifulsoup)
