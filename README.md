@@ -21,11 +21,14 @@
 ## Day 3 (7/7) 실습
 - 데이터 다루기 2
     - [Pandas1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day3/Pandas_1.ipynb/) : Pandas 자료구조, 인덱싱과 슬라이싱
-    - [Pandas2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day3/Pandas_2.ipynb/)) : 데이터 연산
+    - [Pandas2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day3/Pandas_2.ipynb/) : 데이터 연산
     
 
 ## Day 4 (7/8) 실습
-- 데이터 시각화 (matplotlib, seaborn)
+- 데이터 시각화
+    - matplotlib1
+    - matplotlib2
+    - seaborn
 
 
 ## Day 5 (7/9) 실습
