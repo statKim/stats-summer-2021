@@ -24,13 +24,14 @@
     
 
 ## Day 4 (7/8) 실습
-- 데이터 시각화 ([matplotlib1](), [matplotlib2](), [seaborn]())
+- 데이터 시각화 ([matplotlib1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day4/matplotlib_1.ipynb/), [matplotlib2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day4/matplotlib_2.ipynb/), [seaborn](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day4/seaborn.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day4.zip?raw=T)
 
 
 ## Day 5 (7/9) 실습
 - 파이썬 가상환경 만들기
-- 웹 크롤링 1 (Beautifulsoup)
+- 웹 크롤링 1 (Beautifulsoup1, Beautifulsoup2)
 
 
 ## Day 6 (7/14) 실습
-- 웹 크롤링 2 (Selenium)
+- 웹 크롤링 2 (Selenium1, Selenium2)
