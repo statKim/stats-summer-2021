@@ -29,8 +29,9 @@
 
 
 ## Day 5 (7/9) 실습
-- 파이썬 가상환경 만들기
-- 웹 크롤링 1 (Beautifulsoup1, Beautifulsoup2)
+- [파이썬 가상환경 만들기](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day5/virtual_env.pdf/)
+- 웹 크롤링 1 ([Beautifulsoup1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day5/BeautifulSoup_1.ipynb/), [Beautifulsoup2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day5/BeautifulSoup_1.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day5.zip?raw=T)
 
 
 ## Day 6 (7/14) 실습
