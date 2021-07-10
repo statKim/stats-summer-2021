@@ -34,12 +34,14 @@
 
 
 ## Day 6 (7/14) 실습
-- 웹 크롤링 2 (Selenium1, Selenium2)
+- 웹 크롤링 2 ([Selenium1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day6/Selenium_1.ipynb/), [Selenium2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day6/Selenium_2.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day6.zip?raw=T)
 
 
 ## Day 7 (7/15) 실습
-- 클래스와 객체
-- 추정과 검정
+- [클래스와 객체](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day7/클래스와%20객체.ipynb/)
+- [추정과 검정](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day7/추정과%20검정.ipynb/)
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day7.zip?raw=T)
 
 
 ## Day 8 (7/16) 실습
