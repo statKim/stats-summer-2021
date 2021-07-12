@@ -45,4 +45,5 @@
 
 
 ## Day 8 (7/16) 실습
-- 회귀분석 ([회귀분석_1](), [회귀분석_2]())
+- 회귀분석 ([회귀분석_1](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day8/회귀분석_1.ipynb/), [회귀분석_2](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day8/회귀분석_2.ipynb/), [회귀분석_3](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day8/회귀분석_3.ipynb/))
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day8.zip?raw=T)
