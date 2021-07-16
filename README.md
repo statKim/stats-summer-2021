@@ -50,8 +50,9 @@
 
 
 ## Day 9 (7/22) 실습
-- 로지스틱 회귀분석
-- 머신러닝 (지도학습 - 분류)
+- [로지스틱 회귀분석](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day9/로지스틱회귀분석.ipynb/)
+- [머신러닝 (지도학습 - 분류)](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day9/머신러닝_분류.ipynb/)
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day9.zip?raw=T)
 
 
 ## Day 10 (7/23) 실습
