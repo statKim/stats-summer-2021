@@ -56,5 +56,6 @@
 
 
 ## Day 10 (7/23) 실습
-- 머신러닝 (지도학습 - 회귀)
-- 머신러닝 (비지도학습)
+- [머신러닝 (지도학습 - 회귀)](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day10/머신러닝_회귀.ipynb/)
+- [머신러닝 (비지도학습)](https://github.com/statKim/stats-summer-2021/blob/main/Lecture_note/Day10/머신러닝_비지도학습.ipynb/)
+- [**실습자료 다운로드**](https://github.com/statKim/stats-summer-2021/blob/main/Files/Day10.zip?raw=T)
